@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CameraShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .mains {
+        display: flex;
+        color: white;
+    }
+
+    .top {
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        margin: 20px 0px 5px 20px;
+        padding: 25px;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 0px 25px;
+        border: 2px;
+        border-radius: 2px;
+        border-color: white;
+    }
+    li a:hover {
+        border: 5px;
+        border-radius: 5px;
+        border-color: white;
+        margin-top: 10px;
+        color: yellow;
+        font-size: larger;
+    }
+
+    .spaceline {
+        margin-top: 10px;
+        height: 1px;
+        width: 100vw;
+        background-color: yellow;
+    }
+
+    .spaceline:hover {
+        background-color: white;
+    }
+
+    .heading {
+        color: white;
+        width: 45vw;
+        margin: 30px;
+    }
+
+    .container {
+        margin-top: 4vh;
+        margin-left: 40px;
+        height: 50vh;
+        width: 45vw;
+        color: white;
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        ;
+    }
+
+    .button {
+        margin: 10px 0px;
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        background-color: yellow;
+        height: 35px;
+        width: 80px;
+        border: 0px;
+        border-radius: 2px;
+    }
+
+    .button:hover {
+        font-size: medium;
+        height: 40px;
+        width: 85px;
+        background-color: rgb(203, 203, 59);
+        color: white;
+    }
+
+    .stars {
+        display: inline-flex;
+    }
+
+    .review {
+        display: inline;
+        position: absolute;
+        margin-top: 5px;
+    }
+
+    .written {
+        display: inline-flex;
+        float: left;
+    }
+
+    .image {
+        margin: 35px 300px;
+        color: blue;
+        float: top-right;
+        height: 50vh;
+        width: 40vw;
+    }
+
+    .mid {
+        display: flex;
+    }
+
+    #text {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .icons {
+        display: flex;
+        height: 68px;
+        width: 1025px;
+    }
+
+    #ds {
+        margin-top: 30px;
+        display: inline-flex;
+        float: right;
+        margin-left: 400px;
+    }
+
+    #ds:hover {
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    #si {
+        margin-top: 35px;
+        display: inline-flex;
+        float: right;
+        margin-left: 70px;
+    }
+
+    #si:hover {
+        height: 60px;
+        margin-top: 30px;
+    }
+
+    #icon {
+        margin-top: 30px;
+        height: 50px;
+        width: 50px;
+        float: right;
+        margin-left: 300px;
+    }
+
+    #icon:hover {
+        margin-top: 25px;
+        height: 60px;
+        width: 60px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="mains">
+            <ul class="top">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+            <div class="icons">
+                <img src="images/downloadsign.jpg" alt="" height="50px" id="ds">
+                <img src="images/sii.jpg" height="50px" alt="" id="si">
+                <img src="/images/icone.jpg" alt="" height="50px" id="icon">
+            </div>
+
+        </nav>
+    </header>
+    <div class="spaceline"></div>
+    <div class="mid">
+        <div class="wrritten">
+            <div class="heading">
+                <h1>CAPTURE ALL THE BEST MOMENTS OF YOUR LIFE TO LOOK AT THEM WHEN YOU ARE OLD.</h1>
+            </div>
+            <div class="container">
+                <p id="text">Purchase a camera this winter to capture all the best memorable moments of your life to
+                    look back when you are old. Cameras for sale this winter on a heavy discout 25% off on your
+                    favourite ones. Purchase now and enjoy for the rest of your life time. Sale starting from 1st
+                    December 2023 to 5th December 2023. Register now to grab your favourite one camera before anyone
+                    else.</p><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi dolore assumenda quos quam
+                    voluptas, omnis enim veritatis corporis pariatur et. Blanditiis corrupti nihil obcaecati velit vero
+                    officia dolores delectus nemo?</p>
+                <button type="button" class="button">Buy Now</button><br>
+                <div class="reviewstuff"> <img src="/images/REVIEW.jpeg" alt="" height="25px" class="stars">
+                    <h5 class="review">Reviews on Amazon, Flipkart, etc.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="image"><img src="images/pexels-matheus-bertelli-1144699.jpg" alt="" height="550px"></div>
+    </div>
+
+</body>
+
+</html>
