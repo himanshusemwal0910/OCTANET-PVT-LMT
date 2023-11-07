@@ -1,0 +1,10 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 10vh;
+    color: yellow;
+    display: inline-flex;
+}
